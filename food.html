@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+  body {
+    background-color: #1b1b1e;
+    font-family: "Poppins";
+  }
+
+  footer {
+        font-size: 0.8em;
+    }
+
+  .btn {
+    background: #48e5c2;
+    color: #1b1b1e;
+  }
+
+  .b-divider {
+        height: 3rem;
+        background-color: rgba(0, 0, 0, .1);
+        border: solid rgba(0, 0, 0, .15);
+        border-width: 1px 0;
+        box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+  }
+
+@media only screen and (max-width: 1200px) {
+  .btn {
+      font-size: 15px;
+    }
+
+  p {
+      font-size: 12px;
+    }
+  .album {
+    padding: 10px;
+    margin: 10px;
+  }
+
+  } 
+
+/* EFFECTS */
+    .btn:hover {
+            background: #fbfffe;
+            color: #1b1b1e;
+        }
+
+    .nav-item:hover {
+            background: #0a5746;
+        }
+
+
+</style>
+</head>
+<body>
+
+<!-- NAVBAR -->
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="home.html">Highland Paradise</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav me-auto mb-2 mb-md-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="destination.html">Destinations</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="food.html">Food</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="contact.html">Contact</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+<!-- JUMBOTRON -->
+<main>
+    <section>
+      <div class="p-5 mb-4 rounded-3" style="background-image: url(cover/cover1.png);">
+        <div class="container-fluid py-5 text-white">
+          <h1 class="display-5 fw-bold">Experience the new taste.</h1>
+          <p class="col-md-8 fs-4">Good food can be found anywhere.</p>
+        </div>
+      </div>
+    </section>
+
+<!-- CARDS -->
+    <div class="album py-2">
+      <div class="container">
+  
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="exhibit/f5.png" alt="">
+              <div class="card-body">
+                <p class="card-text">Quench your thirst with our refreshing & healthy Passion Fruit Drink. Mix with Purified water and Passion Fruit Concentrate. Time to spread the love and support our local independent outlets.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a href="#" class="btn btn-sm btn-outline-secondary text-dark">View</a>
+                  </div>
+                  <small class="text-muted">#Lokal</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="exhibit/f3.png" alt="">
+  
+              <div class="card-body">
+                <p class="card-text">Paula's pineapple jam are made of fresh Bukidnon Pineapples (the sweetest in the country). Spreading good vibes with pineapple jam.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a href="#" class="btn btn-sm btn-outline-secondary text-dark">View</a>
+                  </div>
+                  <small class="text-muted">#Lokal</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="exhibit/f6.png" alt="">
+  
+              <div class="card-body">
+                <p class="card-text">Cafe sa Bukid’s Strawberry Jam is made of fresh strawberries harvested locally in Kibangay and carefully cooked to fit your tastebuds. A perfect pair for your bread.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a href="#" class="btn btn-sm btn-outline-secondary text-dark">View</a>
+                  </div>
+                  <small class="text-muted">#Lokal</small>
+                </div>
+              </div>
+            </div>
+          </div>
+  
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="exhibit/f4.png" alt="">
+  
+              <div class="card-body">
+                <p class="card-text">Binaki, or steamed corn cake, is a popular dessert. This sweet corn roll is usually sold in the streets and markets of Bukidnon and other parts of the region.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a href="#" class="btn btn-sm btn-outline-secondary text-dark">View</a>
+                  </div>
+                  <small class="text-muted">#Lokal</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="exhibit/f9.png" alt="">
+  
+              <div class="card-body">
+                <p class="card-text">Del Monte's Pineapple Plantation in Bukidnon is One of the World's Largest covering a wide area of 25,000-hectare land. located at Camp Philips, Manolo Fortich, Bukidnon</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a href="#" class="btn btn-sm btn-outline-secondary text-dark">View</a>
+                  </div>
+                  <small class="text-muted">#Lokal</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="exhibit/f7.png" alt="">
+  
+              <div class="card-body">
+                <p class="card-text">Serving cups of warm chocolate and coffee to its visitors, the homey Cafe sa Bukid has taken residence between the Kitanglad and Kalatungan mountain ranges.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a href="#" class="btn btn-sm btn-outline-secondary text-dark">View</a>
+                  </div>
+                  <small class="text-muted">#Cafe</small>
+                </div>
+              </div>
+            </div>
+          </div>
+  
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="exhibit/f2.png" alt="">
+  
+              <div class="card-body">
+                <p class="card-text">Cafe 14•15 of Manolo Fortich, Bukidnon: This Instagrammable cafe has a nice ambiance, great customer service, and a variety of amazing drinks and pastry choices</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a href="#" class="btn btn-sm btn-outline-secondary text-dark">View</a>
+                  </div>
+                  <small class="text-muted">#Cafe</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="exhibit/f8.png" alt="">
+  
+              <div class="card-body">
+                <p class="card-text">Clad in bamboo and designed like a grand bahay kubo, Chukoohills is an eye-catching cafe and restaurant situated in the middle of the mountains in Brgy Kaatuan, Lantapan.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a href="#" class="btn btn-sm btn-outline-secondary text-dark">View</a>
+                  </div>
+                  <small class="text-muted">#Restaurant</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="exhibit/f1.png" alt="">
+  
+              <div class="card-body">
+                <p class="card-text">This American vintage filling station themed bar cafe inside Dahilayan Forest and Adventure Park in Bukidnon is definitely an Instagrammable place that will bring you to the good old days.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a href="#" class="btn btn-sm btn-outline-secondary text-dark">View</a>
+                  </div>
+                  <small class="text-muted">#Restaurant</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+</main>
+
+<div class="b-divider"></div> 
+
+<!-- FOOTER -->
+<footer>
+    <p class="text-center text-white text-muted">KodeGo | Team Exceed | Copyright &copy; 2021</p>
+  </footer>
+
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
